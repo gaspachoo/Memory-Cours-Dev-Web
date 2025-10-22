@@ -1,0 +1,91 @@
+/* Vous pouvez écrire votre CSS */
+
+body{
+  background-color: lightblue;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  grid-auto-rows: minmax(100px, auto);
+  width: max-content;
+  align-self: center;
+  background-color: aquamarine;
+  padding: 1em;
+  box-shadow: 1em 1em 1em #00000020;
+}
+
+.card  {
+  background-color: green;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  width: 5em;
+  height: 5em;
+}
+
+.card {
+  content-visibility: hidden;
+}
+
+#card1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+#card2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+#card3 {
+  grid-column: 3;
+  grid-row: 1;
+}
+#card4 {
+  grid-column: 4;
+  grid-row: 1;
+}
+#card5 {
+  grid-column: 1;
+  grid-row: 2;
+}
+#card6 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#card7 {
+  grid-column: 3;
+  grid-row: 2;
+}
+#card8 {
+  grid-column: 4;
+  grid-row: 2;
+}
+#card9 {
+  grid-column: 1;
+  grid-row: 3;
+}
+#card10 {
+  grid-column: 2;
+  grid-row: 3;
+}
+#card11 {
+  grid-column: 3;
+  grid-row: 3;
+}
+#card12 {
+  grid-column: 4;
+  grid-row: 3;
+}
